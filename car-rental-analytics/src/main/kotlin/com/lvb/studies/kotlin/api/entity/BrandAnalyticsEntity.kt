@@ -1,4 +1,4 @@
-package com.example.demo.entity
+package com.lvb.studies.kotlin.api.entity
 
 import jakarta.persistence.Entity
 import jakarta.persistence.Table
@@ -7,15 +7,15 @@ import jakarta.persistence.GeneratedValue
 import jakarta.persistence.GenerationType
 
 @Entity
-@Table(name = "car_model_price")
-data class CarModelPriceEntity(
+@Table(name = "brand_analytics")
+data class BrandAnalyticsEntity (
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private var id : Long? = null,
+    var id : Long? = null,
 
-    private var model: String = "",
+    var brand: String = "",
 
-    private var price: Double? = null
+    var posts: Long? = null
 
 )

@@ -1,6 +1,6 @@
-package com.example.demo.repository
+package com.lvb.studies.kotlin.api.repository
 
-import com.example.demo.entity.CarModelAnalyticsEntity
+import com.lvb.studies.kotlin.api.entity.CarModelAnalyticsEntity
 import org.springframework.data.jpa.repository.JpaRepository
 import org.springframework.stereotype.Repository
 import java.util.Optional

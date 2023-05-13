@@ -1,4 +1,4 @@
-package com.example.demo.dto
+package com.lvb.studies.kotlin.api.dto
 
 import com.fasterxml.jackson.annotation.JsonInclude
 
@@ -7,7 +7,7 @@ data class CarPostDTO(
 
     val model: String = "",
     val brand: String = "",
-    val price: String = "",
+    val price: Double = 0.0,
     val description: String = "",
     val engineVersion: String = "",
     val city: String = "",

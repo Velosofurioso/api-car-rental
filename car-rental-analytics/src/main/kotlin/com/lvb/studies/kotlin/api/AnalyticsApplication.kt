@@ -1,4 +1,4 @@
-package com.example.demo
+package com.lvb.studies.kotlin.api
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

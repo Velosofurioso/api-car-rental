@@ -15,7 +15,7 @@ data class CarPostDTO(
 
     private val model: String = "",
     private val brand: String = "",
-    private val price: String = "",
+    private val price: Double = 0.0,
     private val description: String = "",
     private val engineVersion: String = "",
     private val city: String = "",
